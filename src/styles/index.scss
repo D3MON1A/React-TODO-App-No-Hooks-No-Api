@@ -28,8 +28,10 @@ span {
 }
 
 li:hover span {
-    color: red;
-    border: 3px solid red;
+    color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+    border: 3px solid #A1BAFE;
     font-weight: 700;
 }    
 
@@ -40,3 +42,30 @@ li:hover span {
     background: lightgray;
     box-shadow: 3px 4px 20px black;
 }
+h1{
+    color: darkgrey;
+  white-space: nowrap;
+  justify-content: center;
+  position: absolute;
+  float: left;
+  top: 10%;
+  left: 42%;
+
+  transform: translate(-20%, -20%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+h1:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+
